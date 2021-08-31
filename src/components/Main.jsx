@@ -8,23 +8,18 @@ export const Header = () => {
                 <Link to={'/'} className="navbar-brand">
                     <img src="images/logo.png" className="w-100" alt="Logo" />
                 </Link>
-
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
-                <div id="menu" className="collapse navbar-collapse">
+                <div>
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <Link to='/' className="nav-link">Home</Link>
                         </li>
-                        <li>
+                        <li className="nav-item">
                             <Link to={'/sobre'} className="nav-link">Sobre</Link>
                         </li>
-                        <li>
+                        <li className="nav-item">
                             <Link to={'/contato'} className="nav-link">Contato</Link>
                         </li>
-                        <li>
+                        <li className="nav-item">
                             <Link to={'/Hobbies'} className="nav-link">Hobbies</Link>
                         </li>
                         
