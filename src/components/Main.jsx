@@ -56,11 +56,13 @@ export const Video = props => {
         <div className="col-12 col-md-4">
             <div className="card">
               
-              <iframe width="100%" height="320" src={`https://www.youtube.com/embed/${props.video}`}></iframe>
-              
+              <iframe width="100%" height="320" src={`https://www.youtube.com/embed/${props.video}`}  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
               <div className="card-body">
                 <h3>{props.titulo}</h3>
             </div>
+
+            
             </div>
         </div>
         </>
